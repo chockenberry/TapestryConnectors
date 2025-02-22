@@ -4,7 +4,6 @@
 	"default_color": "gray",
 	"icon": "https://usetapestry.com/icons/rss.png",
 	"site": "https://blog.fefe.de/rss.xml",
-	"site_help": "Wer schöne Verschwörungslinks für mich hat: ab an felix-bloginput (at) fefe.de!",
 	"check_interval": 300,
-	"version": 1
+	"version": 2
 }

@@ -1,6 +1,6 @@
 
-This connector reads a blog’s syndicated feed in the RSS or Atom formats.
+A unique connector for a unique blog.
 
-These feeds have been around for over 20 years and are widely supported by websites.
+If you know what blog.fefe.de is, you know why you need this connector.
 
-Some sites also support JSON feed, which provides additional features in a more modern format.
+By the power of ZAHL.
