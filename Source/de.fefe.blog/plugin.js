@@ -1,6 +1,10 @@
 
 // de.fefe.blog
 
+// version 3: added support for HTML in description
+// version 2: added help
+// version 1: initial release
+
 // blog code:
 // https://gist.githubusercontent.com/tazjin/f8a4b0235fb37bb1f3de59f57f7fd638/raw/a737d13e6ac86bcdea40848f7d70dbdfd3cd411c/fefes-blog.c
 // 
@@ -60,6 +64,7 @@ function load() {
 				let guid = item["guid"]; // "https://blog.fefe.de/?ts=99462794"
 				let link = item["link"]; // "https://blog.fefe.de/?ts=99462794"
 				let title = item["title"]; // "Ich spreche kein Deutsch"
+				let body = item["description"]; // "Es ist wahr"
 								
 				let hexTimestamp = guid.split("=")[1];
 				let ts = parseInt(hexTimestamp, 16);
@@ -70,7 +75,10 @@ function load() {
 
 				const resultItem = Item.createWithUriDate(link, date);
 				if (title != null) {
-					resultItem.body = title;
+					resultItem.title = title;
+				}
+				if (body != null) {
+					resultItem.body = body;
 				}
 				
 				results.push(resultItem);

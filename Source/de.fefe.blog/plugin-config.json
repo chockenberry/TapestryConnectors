@@ -3,7 +3,7 @@
 	"display_name": "Fefes Blog",
 	"default_color": "gray",
 	"icon": "https://usetapestry.com/icons/rss.png",
-	"site": "https://blog.fefe.de/rss.xml",
+	"site": "https://blog.fefe.de/rss.xml?html",
 	"check_interval": 300,
-	"version": 2
+	"version": 3
 }
