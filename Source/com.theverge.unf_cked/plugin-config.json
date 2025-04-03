@@ -1,0 +1,9 @@
+{
+	"id": "com.theverge.unf_cked",
+	"display_name": "The Verge (Unf*cked)",
+	"default_color": "purple",
+	"icon": "https://furbo.org/stuff/public/verge-unf_cked.png",
+	"site": "https://www.theverge.com/rss/index.xml",
+	"check_interval": 300,
+	"version": 1
+}
